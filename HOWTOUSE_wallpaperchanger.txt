@@ -1,0 +1,11 @@
+1. Get the Serial Number of your USB device and put your Image in a folder called "data" on the USBs main directory.
+2. Edit the payload. (YOUR_SERIAL_NUMBER, YOUR_IMAGE)
+3. Flash the script to the digispark using the "Micronucleus" programmer.
+4. Plug the USB into the victim machine. Wait until the USB shows up as installed.
+5. Plug the digispark into the victims computer. Error messages are OK, because the script runs without elevated privileges.
+   Not all commands will work with e.g. Windows 7.
+
+The payload was tested on Windows 7 and Windows 10. May work on Windows 8/XP too.
+ENJOY!
+
+~neogret
