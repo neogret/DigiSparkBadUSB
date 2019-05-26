@@ -4,6 +4,8 @@
 4. Plug the USB into the victim machine. Wait until the USB shows up as installed.
 5. Plug the digispark into the victims computer. Error messages are OK, because the script runs without elevated privileges.
    Not all commands will work with e.g. Windows 7.
+   
+   Note: Most times the wallpaper will update with the next boot of the computer.
 
 The payload was tested on Windows 7 and Windows 10. May work on Windows 8/XP too.
 ENJOY!
