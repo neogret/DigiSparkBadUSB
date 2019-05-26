@@ -20,7 +20,7 @@ void loop(){
   DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(100);
-  DigiKeyboard.print(F("$vol = get-wmiobject -Class Win32_Volume | where{$_.SerialNumber -eq 1125939101}")); // FILTER CONNECTED USB DEVICES BY SERIAL NUMBER
+  DigiKeyboard.print(F("$vol = get-wmiobject -Class Win32_Volume | where{$_.SerialNumber -eq YOUR_SERIAL_NUMBER}")); // FILTER CONNECTED USB DEVICES BY SERIAL NUMBER
   DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(100);
@@ -28,7 +28,7 @@ void loop(){
   DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(100);
-  DigiKeyboard.print(F("$path = $dl + '/data/yougotpwned.jpeg'")); // WALLPAPER PATH
+  DigiKeyboard.print(F("$path = $dl + '/data/YOUR_IMAGE.jpeg'")); // WALLPAPER PATH
   DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(100);
