@@ -1,0 +1,8 @@
+1. Edit the payload. Replace YOUR_SERIAL_NUMBER with the serial number of your USB device. 
+2. Flash the digispark using the "Micronucleus" programmer.
+3. Create a folder called "captured" in the USBs main directory.
+4. Plug the USB device into the victims computer. Wait until it shows up as installed.
+5. Plug the digispark into the victims machine. 
+
+ENJOY.
+ツ
